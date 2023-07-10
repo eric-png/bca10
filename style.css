@@ -1,0 +1,9 @@
+.
+
+/* This script will add a fun feature to Bear's website. When the user clicks on the image of Bear, a message will appear saying "Hi, I'm Bear!" */
+
+const bearImage = document.querySelector('img');
+
+bearImage.addEventListener('click', () => {
+  alert("Hi, I'm Bear!");
+});
